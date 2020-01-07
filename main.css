@@ -1,0 +1,59 @@
+header{
+    background: tomato;
+    margin: 10px;
+    padding: 20px;
+}
+header nav{
+
+}
+header nav ul{
+    display: flex;
+
+}
+header nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+main{
+    display: flex;
+}
+section{
+    width: 70%;
+    background: purple;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+section h1{
+
+}
+article{
+    background: yellowgreen;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+article h2{
+
+}
+article p{
+
+}
+aside{
+    background: pink;
+    width: 30%;
+    margin:10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+footer{
+    background: yellow;
+    margin: 10px;
+    padding: 20px;
+}
+footer address{
+
+}
+footer address a{
+    display: block; /*a 태그의 인라인 요소는 수평으로 되어있어서 강제로 블록요소로 변환*/
+}
